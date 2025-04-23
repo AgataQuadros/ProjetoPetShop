@@ -171,9 +171,11 @@ input::placeholder, textarea::placeholder{
     box-sizing: content-box;
 }
 
-.contatos p {
+.contatos p, h3 {
     color: rgba(166, 128, 145, 1);
 }
+
+
 
 .form-container {
     display: flex;
