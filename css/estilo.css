@@ -135,6 +135,29 @@ footer p {
     color: rgba(231, 153, 177, 1);
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.form-container {
+    background-color: #3f352c;
+    margin-bottom: 20px;
+    padding: 40px 40px 40px 40px;
+    line-height: 1.5;
+}
+
+.form-container button {
+    font-size: 1.5rem;
+    color: #291c13;
+    background-color: #CDA172;
+    padding: 3px;
+    border-radius: 5px;
+}
+
 
 @media (max-width: 768px){
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br ">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluttershy Petshop</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Imperial+Script&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Flutershy</h1>
+        <h2>petshop</h2>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Servicos</a>
+        <a href="adocoes.html">Adoções</a>
+        <a href="">Contatos</a>
+    </nav>
+
+    <main>
+        <section>
+            <h3>Formulário de Contato</h3>
+            <article class="form-container">
+                <form action="/enviar" method="post">
+                    <!-- O método 'post' envia os dados de forma segura, sem expor na URL -->
+
+                    <!-- Campo de entrada para o nome -->
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br><br>
+
+                    <!-- Campo de entrada para o e-mail -->
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="genero">Gênero:</label>
+                    <select id="genero" name="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outros">Outros</option>
+                        <option value="prefiro_nao_dizer">Prefiro não dizer</option>
+                    </select>
+                    <br /><br />
+
+                    <!-- Área de texto para a mensagem -->
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" rows="4" required></textarea>
+                    <br><br>
+
+                    <!-- Botão para enviar o formulário -->
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Todos os Direitos Reservados</p>
+    </footer>
+</body>
+
+</html>
