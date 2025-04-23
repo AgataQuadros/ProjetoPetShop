@@ -176,7 +176,6 @@ input::placeholder, textarea::placeholder{
 }
 
 
-
 .form-container {
     display: flex;
     align-items: center;
@@ -207,7 +206,13 @@ input::placeholder, textarea::placeholder{
     border: 0;
 }
 
-
+.imagem {
+    height: 240px;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 @media (max-width: 768px){
 
